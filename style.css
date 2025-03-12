@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 46px;
+    color: #000000;
+}
+
+button {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    background-color: #cf0000;
+}
+
+button:disabled {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #cf0000;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+.game-over {
+    color: #470000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #cf0000;
+}
+
+button:active {
+    background-color: #cf0000;
+}
+
+/* CSS for Layout */
+
+.score-container {
+    margin-bottom: 20px;
+}
+
+.game-play {
+    margin-top: 20px;
+}
